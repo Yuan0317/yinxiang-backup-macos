@@ -1,0 +1,23 @@
+# Private note data and authentication database
+data/
+enex-export/
+*.db
+*.db-*
+*.enex
+
+# Local Python environment
+venv/
+.venv/
+__pycache__/
+
+# Documents generated from private notes
+*.docx
+*.pages
+*.pdf
+outputs/
+
+# Secrets and local files
+.env
+.env.*
+*.log
+.DS_Store
